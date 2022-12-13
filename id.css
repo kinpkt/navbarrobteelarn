@@ -1,0 +1,49 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Myriad Pro;
+}
+
+nav 
+{
+    background-color: #49021F;
+}
+
+label.logo 
+{
+    font-size: 35pt;
+    color: #FF3366;
+    font-weight: bold;
+    line-height: 80px;
+    padding: 0 35px;
+}
+
+nav ul
+{
+    float: right;
+}
+
+nav ul li
+{
+    list-style: none;
+    display: inline-block;
+    line-height: 80px;
+    font-size: 16pt;
+    margin: 0 15px;
+}
+
+nav ul li a
+{
+    color: #FF3366;
+    padding: 7px 13px;
+    text-decoration: none;
+}
+
+nav ul li a:hover
+{
+    color: #49021F;
+    background-color: #FF3366;
+    transition: 0.5s;
+}
